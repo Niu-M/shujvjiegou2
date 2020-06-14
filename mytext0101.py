@@ -34,6 +34,8 @@ class Solution(object):
         res = "".join(b)
         return res
 s = "Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers"
+
+# zhuyi
 print(Solution().convert(s,2))
 
 
