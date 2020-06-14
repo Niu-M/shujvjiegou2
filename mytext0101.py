@@ -19,6 +19,7 @@ class Solution(object):
             else:
                 row -= 1
 
+
             if row==numRows-1:
                 flag = 0
             if row==0 and flag==0:
@@ -34,3 +35,6 @@ class Solution(object):
         return res
 s = "Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers"
 print(Solution().convert(s,2))
+
+
+# jiehsuwei
