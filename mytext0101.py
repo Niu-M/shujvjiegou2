@@ -35,8 +35,5 @@ class Solution(object):
         return res
 s = "Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers"
 
-# zhuyi
+# zhuy
 print(Solution().convert(s,2))
-
-
-# jiehsuwei

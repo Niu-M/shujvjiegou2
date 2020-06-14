@@ -14,6 +14,7 @@ class Solution(object):
             if i==n :
                 return count
 
+
             if num<=heights[i]:
                 return f(num,i+1,count+1)
             else:

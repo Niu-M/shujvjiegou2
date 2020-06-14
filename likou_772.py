@@ -162,6 +162,7 @@ def search(str01):
             if str01[i]==")":
                 break
     sum = 0
+
     for j in stack:
         sum += j
     return sum
